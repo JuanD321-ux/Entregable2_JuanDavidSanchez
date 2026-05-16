@@ -1,0 +1,33 @@
+.no-encontrado {
+  padding: 70px 0;
+}
+
+.no-encontrado__card {
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(31, 34, 53, 0.92);
+  border: 1px solid rgba(248, 113, 113, 0.28);
+  border-radius: 24px;
+  padding: 34px;
+}
+
+.no-encontrado h1 {
+  color: #f8fafc;
+  font-size: 2.4rem;
+  margin: 12px 0;
+}
+
+.no-encontrado p {
+  color: #cbd5e1;
+  margin-bottom: 22px;
+}
+
+.no-encontrado a {
+  display: inline-block;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: 800;
+}

@@ -1,0 +1,56 @@
+.especies {
+  padding: 40px 0 55px;
+}
+
+.cabecera-pagina {
+  background: rgba(31, 34, 53, 0.9);
+  border: 1px solid rgba(139, 92, 246, 0.25);
+  border-radius: 24px;
+  padding: 26px;
+  margin-bottom: 22px;
+}
+
+.cabecera-pagina h1 {
+  color: #f8fafc;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  margin: 12px 0;
+}
+
+.cabecera-pagina p {
+  color: #cbd5e1;
+  max-width: 680px;
+}
+
+.filtros-especies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.filtros-especies button {
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  background: rgba(15, 23, 42, 0.8);
+  color: #cbd5e1;
+  padding: 10px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 800;
+  transition: 0.22s;
+}
+
+.filtros-especies button:hover,
+.filtros-especies button.activo {
+  background: #8b5cf6;
+  color: white;
+  border-color: #8b5cf6;
+}
+
+.resultado-especie {
+  margin-bottom: 18px;
+}
+
+.resultado-especie h2 {
+  color: #f8fafc;
+  font-size: 1.4rem;
+}
